@@ -1,0 +1,101 @@
+/* for technical rubric:
+   - make a separate global styling css file and a navigation css file and a main page css file (i.e. organize css files)
+   - take any styling (image height?) out of html files
+   for style rubric: 
+   - lots of things to look at
+   - image optimization (is it done / how to do it)
+   - text size - body 10-16 alphabet * 1.5 character width
+   - use at least one google font
+
+*/
+/* add a google font
+*/
+.img-bar {
+    width: 100%;
+    height: 15em;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-banner {
+    position: relative;
+    top: -25%;   
+    width: 100%;
+}
+
+.title-sec {
+    text-align: center;
+    position: relative;
+}
+
+.title {
+    font-size: 3em;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+}
+
+.under-title {
+    font-size: 1em;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 150%);
+}
+
+.categories {
+    background-color: white;
+    color: #333;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.category-img {
+    display: flex;
+    align-items: flex-start;
+    height: auto;
+}
+
+.category-img section {
+    width: 33.33%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
+
+.last {
+    width: 33.33%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
+.category-img img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    display: block;
+    height: 100%;
+}
+
+.categories h2 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.categories p {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+
